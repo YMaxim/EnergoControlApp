@@ -1,0 +1,100 @@
+/* 
+  Localizable.strings
+  Energo Control
+
+  Created by Admin on 19.03.17.
+  Copyright © 2017 Admin. All rights reserved.
+*/
+
+//About Company
+aboutCompany.title = "About Company";
+aboutCompanyText = "Energo Control LLC is a research and production laboratory working in the sphere of innovative system solutions for energy efficiency. The range of produced electricity meters LEO-M, LEB-D and Torgrids is able to meet the needs of every energy sector.";
+companyAddress = "Energo Control LLC \n+380(432)664-660 \nwww.enay.com.ua/ \n\n5 Energeticheskaya st., Vinnitsa, 21022, Ukraine";
+
+//Documentation
+passport.title = "Passport";
+manual.title = "Manual";
+certificates.title = "Certificates";
+presentations.title = "Presentations";
+other.title = "Other";
+documentation.title = "Documentation";
+
+searchDocumentationText = "Search documentation...";
+questionDownload = "Do you want to download this file?";
+cancelButton = "Cancel";
+downloadButton = "Download";
+
+LEO-M1.4 = "LEO-M1.4";
+LEB-D1.O5 = "LEB-D1.O5";
+LEB-D1.O5-P = "LEB-D1.O5-P";
+LEB-D1.B5-PR6 = "LEB-D1.B5-PR6";
+leoLebManual = "LEO, LEB - Manual";
+torgridsManual = "Torgrids - Manual";
+leoLebPAC = "LEO,LEB - Pattern approval certificate";
+torgridsPAC = "Torgrids - Pattern approval certificate";
+leoLebCOC = "LEO,LEB - Certificate of conformity";
+torgridsCOC = "Torgrids - Certificate of conformity";
+leoLebSES = "LEO,LEB Certificate of Sanitary-Epidemiological Station";
+torgridsSES = "Torgrids Certificate of Sanitary-Epidemiological Station";
+leoLebUkrSEPRO = "LEO,LEB - UkrSEPRO certificate";
+PresentationEnergoControl.07.02.2017 = "Presentation Energo Control 07/02/2017";
+PresentationKyivenergo.06.12.2016 = "Presentation Kyivenergo 06/12/2016";
+Presentation.20.09.2016 = "Presentation 20/09/2016";
+PresentationAMR.16.08.2016 = "Presentation AMR 16/08/2016";
+leoLebTechSpecif = "LEO, LEB - Technical specification";
+torgridsTechSpecif = "Torgrids - Technical specification";
+leoLebTypeSpecif = "LEO, LEB - Type specification";
+torgridsTypeSpecif = "Torgrids - Type specification";
+leoLebIP54 = "LEO, LEB - IP54 Test report";
+leoLebIP54SOU = "LEO, LEB - SOU-N MPE Test report";
+
+//Our scientific work
+ourScientificWork1 = "   Energo Control LLC is one of the main Ukrainian companies in the development and production of energy meters as well as their introduction into the automated system of commercial accounting.";
+ourScientificWork2 = "   At the moment there is a whole series of single-phase and three-phase meters, ranging from simple basic modifications to Smart meters, which allows to automate the collection of readings from meters.";
+ourScientificWork3 = "   The main emphasis in the designing of our products is made on high quality, reliability, functionality, the ease of adjustment and installation, and modern design. In addition, we always try to improve the production, increase its cost-effectiveness in order to make our devices as accessible to the end user as possible.";
+ourScientificWork4 = "   To achieve maximum quality and protect our meters from climatic factors and from unauthorized access of dishonest consumers, special devices for diagnosing meters have been developed. The testing of new components of meters is carried out on a monthly, which allow us to choose only high-quality parts and materials for manufacturing our products.";
+ourScientificWork5 = "   Our team consists of experienced in the energy sphere professionals, as well as young specialists, which insures the most efficient use of advanced technologies in the development of energy meters.";
+ourScientificWork6 = "   In the process of development, the wishes of our customers are always taken into account, that is why we receive a greater number of letters with positive feedback about our products.";
+ourScientificWork.title = "Our scientific work";
+
+//Energy Meters
+singlePh2WireDirectConnection = "Single Phase 2-wire, Direct connection";
+threePh3wireTransformerConnection = "Three Phases 3-wire, Transformer connection";
+threePh4wireTransformerConnection = "Three Phases 4-wire, Transformer connection";
+threePh4wireDirectConnection = "Three Phases 4-wire, Direct connection";
+active1 = "1.0 DSTU IEC 62053-21";
+active1Reactive2 = "1.0 DSTU IEC 62053-21, 2.0 DSTU IEC 62053-23";
+onePhaseVoltage = "from -40 % to +20 %";
+threePhaseVoltage = "from -20 % to +15 %";
+years6 = "6 years";
+years16 = "16 years";
+temperatureRange = "from -40 °С to +70 °С";
+interfacePlcOpt = "PLC, optical port";
+interfaceRsOpt = "RS-485, optical port";
+interfacePlcRsOpt = "PLC, RS-485, optical port";
+electromechanical = "Electromechanical";
+lcd = "LCD";
+energyMeters.title = "Energy meters";
+searchEnergyMetersText = "Search energy meter...";
+name = "Name";
+connectionsType = "Connections type";
+accuracyClass = "Accuracy class";
+ratedVoltage = "Rated voltage";
+permissibleMainsVoltageDeviation = "Permissible mains voltage deviation";
+ratedCurrentIntensity = "Rated (max.) current intensity";
+ratedFrequency = "Rated frequency";
+sensitivity = "Sensitivity";
+recalibrationInterval = "Recalibration interval";
+meterConstant = "Meter constant";
+totalWattageOfMeterVoltageCircuit = "Total wattage of meter voltage circuit";
+totalWattageOfMeterCurrentCircuit = "Total wattage of meter current circuit";
+operatingTemperatureRange = "Operating temperature range";
+interfaceModules = "Interface modules";
+loadDisconnectRelay = "Load disconnect relay";
+numberOfTariffs = "Number of tariffs";
+counterMechanismType = "Counter mechanism type";
+enclosure = "Enclosure";
+dimensionsInMm = "Dimensions in mm";
+weight = "Weight";
+
+

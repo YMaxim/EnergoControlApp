@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		840D06021DD2100200761DC4 /* StartPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840D06011DD2100200761DC4 /* StartPageViewController.swift */; };
+		840D060C1DD219ED00761DC4 /* AboutCompanyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840D060B1DD219ED00761DC4 /* AboutCompanyViewController.swift */; };
+		840D060E1DD2241900761DC4 /* OneEnergyMeterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840D060D1DD2241900761DC4 /* OneEnergyMeterViewController.swift */; };
+		841105371E7DF0CD000381A0 /* about_company.png in Resources */ = {isa = PBXBuildFile; fileRef = 841105391E7DF0CD000381A0 /* about_company.png */; };
+		8411053E1E7DF258000381A0 /* our_scientific_work.png in Resources */ = {isa = PBXBuildFile; fileRef = 841105401E7DF258000381A0 /* our_scientific_work.png */; };
+		841105421E7DF26F000381A0 /* energy_meters.png in Resources */ = {isa = PBXBuildFile; fileRef = 841105441E7DF26F000381A0 /* energy_meters.png */; };
+		841105461E7DF274000381A0 /* documentation.png in Resources */ = {isa = PBXBuildFile; fileRef = 841105481E7DF274000381A0 /* documentation.png */; };
+		8411054A1E7DF284000381A0 /* certificates.png in Resources */ = {isa = PBXBuildFile; fileRef = 8411054C1E7DF284000381A0 /* certificates.png */; };
+		8411054E1E7DF28A000381A0 /* presentations.png in Resources */ = {isa = PBXBuildFile; fileRef = 841105501E7DF28A000381A0 /* presentations.png */; };
+		841105521E7DF28F000381A0 /* passport.png in Resources */ = {isa = PBXBuildFile; fileRef = 841105541E7DF28F000381A0 /* passport.png */; };
+		841105561E7DF293000381A0 /* other.png in Resources */ = {isa = PBXBuildFile; fileRef = 841105581E7DF293000381A0 /* other.png */; };
+		8411055A1E7DF29B000381A0 /* manual.png in Resources */ = {isa = PBXBuildFile; fileRef = 8411055C1E7DF29B000381A0 /* manual.png */; };
+		841105601E7DF48E000381A0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 841105621E7DF48E000381A0 /* Localizable.strings */; };
+		842EB3891E0882CB00212DC1 /* OurScientificWorkTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842EB3881E0882CB00212DC1 /* OurScientificWorkTableViewController.swift */; };
+		842EB38B1E08857800212DC1 /* OurScientificWorkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842EB38A1E08857800212DC1 /* OurScientificWorkTableViewCell.swift */; };
+		84440DEF1DF4884100684056 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84440DEE1DF4884100684056 /* MapKit.framework */; };
+		844ECF201DFCAF4600D856D1 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844ECF1F1DFCAF4600D856D1 /* MapViewController.swift */; };
+		8450FBAD1DDA3AE600EE27BC /* EnergyMetersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8450FBAC1DDA3AE500EE27BC /* EnergyMetersTableViewCell.swift */; };
+		845414FC1DD22F3E0007D1FF /* OneEnergyMeterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845414FB1DD22F3E0007D1FF /* OneEnergyMeterTableViewCell.swift */; };
+		845414FE1DD22F3E0007D1FF /* EnergyMeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845414FD1DD22F3E0007D1FF /* EnergyMeter.swift */; };
+		846382D71DDF524200A48DB8 /* DocumentationURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846382D61DDF524200A48DB8 /* DocumentationURL.swift */; };
+		846AD6FD1E749CEB00744384 /* EnergyMetersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840D06031DD2152500761DC4 /* EnergyMetersTableViewController.swift */; };
+		84D253251E015B6500A758ED /* DocumentationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D253241E015B6500A758ED /* DocumentationViewController.swift */; };
+		84D3F3971E110DD70069708D /* OurScientificWorkCellClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D3F3961E110DD70069708D /* OurScientificWorkCellClass.swift */; };
+		84E262231DD115A3003E6412 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E262221DD115A3003E6412 /* AppDelegate.swift */; };
+		84E262281DD115A3003E6412 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E262261DD115A3003E6412 /* Main.storyboard */; };
+		84E2622A1DD115A3003E6412 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E262291DD115A3003E6412 /* Assets.xcassets */; };
+		84E2622D1DD115A3003E6412 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E2622B1DD115A3003E6412 /* LaunchScreen.storyboard */; };
+		84EC54621E8EF46800629AF5 /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EC54611E8EF46800629AF5 /* BaseTableViewCell.swift */; };
+		84EC54631E8F13CF00629AF5 /* ConstantsDocumentationTexts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D2532A1E01643A00A758ED /* ConstantsDocumentationTexts.swift */; };
+		84EC872C1E8AE6C500805297 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EC872B1E8AE6C500805297 /* BaseTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		840D06011DD2100200761DC4 /* StartPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartPageViewController.swift; sourceTree = "<group>"; };
+		840D06031DD2152500761DC4 /* EnergyMetersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnergyMetersTableViewController.swift; sourceTree = "<group>"; };
+		840D060B1DD219ED00761DC4 /* AboutCompanyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutCompanyViewController.swift; sourceTree = "<group>"; };
+		840D060D1DD2241900761DC4 /* OneEnergyMeterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneEnergyMeterViewController.swift; sourceTree = "<group>"; };
+		841105351E7DF049000381A0 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		841105361E7DF049000381A0 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		841105381E7DF0CD000381A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/about_company.png; sourceTree = "<group>"; };
+		8411053D1E7DF132000381A0 /* ru */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ru; path = ru.lproj/about_company.png; sourceTree = "<group>"; };
+		8411053F1E7DF258000381A0 /* ru */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ru; path = ru.lproj/our_scientific_work.png; sourceTree = "<group>"; };
+		841105411E7DF25A000381A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/our_scientific_work.png; sourceTree = "<group>"; };
+		841105431E7DF26F000381A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/energy_meters.png; sourceTree = "<group>"; };
+		841105451E7DF270000381A0 /* ru */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ru; path = ru.lproj/energy_meters.png; sourceTree = "<group>"; };
+		841105471E7DF274000381A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/documentation.png; sourceTree = "<group>"; };
+		841105491E7DF276000381A0 /* ru */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ru; path = ru.lproj/documentation.png; sourceTree = "<group>"; };
+		8411054B1E7DF284000381A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/certificates.png; sourceTree = "<group>"; };
+		8411054D1E7DF286000381A0 /* ru */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ru; path = ru.lproj/certificates.png; sourceTree = "<group>"; };
+		8411054F1E7DF28A000381A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/presentations.png; sourceTree = "<group>"; };
+		841105511E7DF28B000381A0 /* ru */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ru; path = ru.lproj/presentations.png; sourceTree = "<group>"; };
+		841105531E7DF28F000381A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/passport.png; sourceTree = "<group>"; };
+		841105551E7DF290000381A0 /* ru */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ru; path = ru.lproj/passport.png; sourceTree = "<group>"; };
+		841105571E7DF293000381A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/other.png; sourceTree = "<group>"; };
+		841105591E7DF296000381A0 /* ru */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ru; path = ru.lproj/other.png; sourceTree = "<group>"; };
+		8411055B1E7DF29B000381A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/manual.png; sourceTree = "<group>"; };
+		8411055D1E7DF29C000381A0 /* ru */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ru; path = ru.lproj/manual.png; sourceTree = "<group>"; };
+		841105611E7DF48E000381A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		841105631E7DF48F000381A0 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		842EB3881E0882CB00212DC1 /* OurScientificWorkTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OurScientificWorkTableViewController.swift; sourceTree = "<group>"; };
+		842EB38A1E08857800212DC1 /* OurScientificWorkTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OurScientificWorkTableViewCell.swift; sourceTree = "<group>"; };
+		84440DEE1DF4884100684056 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		844ECF1F1DFCAF4600D856D1 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		8450FBAC1DDA3AE500EE27BC /* EnergyMetersTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnergyMetersTableViewCell.swift; sourceTree = "<group>"; };
+		845414FB1DD22F3E0007D1FF /* OneEnergyMeterTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneEnergyMeterTableViewCell.swift; sourceTree = "<group>"; };
+		845414FD1DD22F3E0007D1FF /* EnergyMeter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnergyMeter.swift; sourceTree = "<group>"; };
+		846382D61DDF524200A48DB8 /* DocumentationURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocumentationURL.swift; sourceTree = "<group>"; };
+		84D253241E015B6500A758ED /* DocumentationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocumentationViewController.swift; sourceTree = "<group>"; };
+		84D2532A1E01643A00A758ED /* ConstantsDocumentationTexts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstantsDocumentationTexts.swift; sourceTree = "<group>"; };
+		84D3F3961E110DD70069708D /* OurScientificWorkCellClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OurScientificWorkCellClass.swift; sourceTree = "<group>"; };
+		84E2621F1DD115A3003E6412 /* Energo Control.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Energo Control.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E262221DD115A3003E6412 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84E262271DD115A3003E6412 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84E262291DD115A3003E6412 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84E2622C1DD115A3003E6412 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84E2622E1DD115A3003E6412 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84EC54611E8EF46800629AF5 /* BaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		84EC872B1E8AE6C500805297 /* BaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84E2621C1DD115A3003E6412 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84440DEF1DF4884100684056 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8405CE261DDE59E300B40867 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				84D253241E015B6500A758ED /* DocumentationViewController.swift */,
+				846382D61DDF524200A48DB8 /* DocumentationURL.swift */,
+				84D2533C1E01658100A758ED /* TypeOfDocumentation */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+		8405CE2D1DDE638E00B40867 /* StartPage */ = {
+			isa = PBXGroup;
+			children = (
+				840D06011DD2100200761DC4 /* StartPageViewController.swift */,
+			);
+			name = StartPage;
+			sourceTree = "<group>";
+		};
+		8405CE2E1DDE639B00B40867 /* About Company */ = {
+			isa = PBXGroup;
+			children = (
+				840D060B1DD219ED00761DC4 /* AboutCompanyViewController.swift */,
+				844ECF1F1DFCAF4600D856D1 /* MapViewController.swift */,
+			);
+			name = "About Company";
+			sourceTree = "<group>";
+		};
+		8405CE2F1DDE63A600B40867 /* Our scientific work */ = {
+			isa = PBXGroup;
+			children = (
+				842EB3881E0882CB00212DC1 /* OurScientificWorkTableViewController.swift */,
+				842EB38A1E08857800212DC1 /* OurScientificWorkTableViewCell.swift */,
+				84D3F3961E110DD70069708D /* OurScientificWorkCellClass.swift */,
+			);
+			name = "Our scientific work";
+			sourceTree = "<group>";
+		};
+		841104741E7DD81C000381A0 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				8411048E1E7DD9F5000381A0 /* Documentation Images */,
+				8411048D1E7DD9D0000381A0 /* Start page Images */,
+				841105621E7DF48E000381A0 /* Localizable.strings */,
+			);
+			name = Localization;
+			sourceTree = "<group>";
+		};
+		8411048D1E7DD9D0000381A0 /* Start page Images */ = {
+			isa = PBXGroup;
+			children = (
+				841105391E7DF0CD000381A0 /* about_company.png */,
+				841105401E7DF258000381A0 /* our_scientific_work.png */,
+				841105441E7DF26F000381A0 /* energy_meters.png */,
+				841105481E7DF274000381A0 /* documentation.png */,
+			);
+			name = "Start page Images";
+			sourceTree = "<group>";
+		};
+		8411048E1E7DD9F5000381A0 /* Documentation Images */ = {
+			isa = PBXGroup;
+			children = (
+				8411054C1E7DF284000381A0 /* certificates.png */,
+				841105501E7DF28A000381A0 /* presentations.png */,
+				841105541E7DF28F000381A0 /* passport.png */,
+				841105581E7DF293000381A0 /* other.png */,
+				8411055C1E7DF29B000381A0 /* manual.png */,
+			);
+			name = "Documentation Images";
+			sourceTree = "<group>";
+		};
+		84440DED1DF4884000684056 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84440DEE1DF4884100684056 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		845414FF1DD22F3E0007D1FF /* EnergyMeters */ = {
+			isa = PBXGroup;
+			children = (
+				845414FD1DD22F3E0007D1FF /* EnergyMeter.swift */,
+				840D06031DD2152500761DC4 /* EnergyMetersTableViewController.swift */,
+				8450FBAC1DDA3AE500EE27BC /* EnergyMetersTableViewCell.swift */,
+				840D060D1DD2241900761DC4 /* OneEnergyMeterViewController.swift */,
+				845414FB1DD22F3E0007D1FF /* OneEnergyMeterTableViewCell.swift */,
+			);
+			name = EnergyMeters;
+			sourceTree = "<group>";
+		};
+		84D2533C1E01658100A758ED /* TypeOfDocumentation */ = {
+			isa = PBXGroup;
+			children = (
+				84EC872B1E8AE6C500805297 /* BaseTableViewController.swift */,
+				84EC54611E8EF46800629AF5 /* BaseTableViewCell.swift */,
+				84D2532A1E01643A00A758ED /* ConstantsDocumentationTexts.swift */,
+			);
+			name = TypeOfDocumentation;
+			sourceTree = "<group>";
+		};
+		84E262161DD115A3003E6412 = {
+			isa = PBXGroup;
+			children = (
+				841104741E7DD81C000381A0 /* Localization */,
+				84E262211DD115A3003E6412 /* Energo Control */,
+				84E262201DD115A3003E6412 /* Products */,
+				84440DED1DF4884000684056 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84E262201DD115A3003E6412 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84E2621F1DD115A3003E6412 /* Energo Control.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84E262211DD115A3003E6412 /* Energo Control */ = {
+			isa = PBXGroup;
+			children = (
+				84E262361DD11EC2003E6412 /* Support Files */,
+				84E262261DD115A3003E6412 /* Main.storyboard */,
+				845414FF1DD22F3E0007D1FF /* EnergyMeters */,
+				8405CE2F1DDE63A600B40867 /* Our scientific work */,
+				8405CE261DDE59E300B40867 /* Documentation */,
+				8405CE2E1DDE639B00B40867 /* About Company */,
+				8405CE2D1DDE638E00B40867 /* StartPage */,
+			);
+			path = "Energo Control";
+			sourceTree = "<group>";
+		};
+		84E262361DD11EC2003E6412 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				84E262221DD115A3003E6412 /* AppDelegate.swift */,
+				84E262291DD115A3003E6412 /* Assets.xcassets */,
+				84E2622B1DD115A3003E6412 /* LaunchScreen.storyboard */,
+				84E2622E1DD115A3003E6412 /* Info.plist */,
+			);
+			name = "Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84E2621E1DD115A3003E6412 /* Energo Control */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E262311DD115A3003E6412 /* Build configuration list for PBXNativeTarget "Energo Control" */;
+			buildPhases = (
+				84E2621B1DD115A3003E6412 /* Sources */,
+				84E2621C1DD115A3003E6412 /* Frameworks */,
+				84E2621D1DD115A3003E6412 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Energo Control";
+			productName = "Energo Control";
+			productReference = 84E2621F1DD115A3003E6412 /* Energo Control.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84E262171DD115A3003E6412 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Admin;
+				TargetAttributes = {
+					84E2621E1DD115A3003E6412 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 84E2621A1DD115A3003E6412 /* Build configuration list for PBXProject "Energo Control" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+			);
+			mainGroup = 84E262161DD115A3003E6412;
+			productRefGroup = 84E262201DD115A3003E6412 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84E2621E1DD115A3003E6412 /* Energo Control */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84E2621D1DD115A3003E6412 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E2622D1DD115A3003E6412 /* LaunchScreen.storyboard in Resources */,
+				84E2622A1DD115A3003E6412 /* Assets.xcassets in Resources */,
+				8411054A1E7DF284000381A0 /* certificates.png in Resources */,
+				841105371E7DF0CD000381A0 /* about_company.png in Resources */,
+				841105561E7DF293000381A0 /* other.png in Resources */,
+				841105461E7DF274000381A0 /* documentation.png in Resources */,
+				84E262281DD115A3003E6412 /* Main.storyboard in Resources */,
+				841105421E7DF26F000381A0 /* energy_meters.png in Resources */,
+				841105521E7DF28F000381A0 /* passport.png in Resources */,
+				841105601E7DF48E000381A0 /* Localizable.strings in Resources */,
+				8411053E1E7DF258000381A0 /* our_scientific_work.png in Resources */,
+				8411055A1E7DF29B000381A0 /* manual.png in Resources */,
+				8411054E1E7DF28A000381A0 /* presentations.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84E2621B1DD115A3003E6412 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D3F3971E110DD70069708D /* OurScientificWorkCellClass.swift in Sources */,
+				84EC54631E8F13CF00629AF5 /* ConstantsDocumentationTexts.swift in Sources */,
+				845414FC1DD22F3E0007D1FF /* OneEnergyMeterTableViewCell.swift in Sources */,
+				846382D71DDF524200A48DB8 /* DocumentationURL.swift in Sources */,
+				840D06021DD2100200761DC4 /* StartPageViewController.swift in Sources */,
+				845414FE1DD22F3E0007D1FF /* EnergyMeter.swift in Sources */,
+				84E262231DD115A3003E6412 /* AppDelegate.swift in Sources */,
+				840D060E1DD2241900761DC4 /* OneEnergyMeterViewController.swift in Sources */,
+				8450FBAD1DDA3AE600EE27BC /* EnergyMetersTableViewCell.swift in Sources */,
+				84D253251E015B6500A758ED /* DocumentationViewController.swift in Sources */,
+				840D060C1DD219ED00761DC4 /* AboutCompanyViewController.swift in Sources */,
+				844ECF201DFCAF4600D856D1 /* MapViewController.swift in Sources */,
+				84EC872C1E8AE6C500805297 /* BaseTableViewController.swift in Sources */,
+				846AD6FD1E749CEB00744384 /* EnergyMetersTableViewController.swift in Sources */,
+				842EB3891E0882CB00212DC1 /* OurScientificWorkTableViewController.swift in Sources */,
+				842EB38B1E08857800212DC1 /* OurScientificWorkTableViewCell.swift in Sources */,
+				84EC54621E8EF46800629AF5 /* BaseTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		841105391E7DF0CD000381A0 /* about_company.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				841105381E7DF0CD000381A0 /* Base */,
+				8411053D1E7DF132000381A0 /* ru */,
+			);
+			name = about_company.png;
+			path = "Start Page Images";
+			sourceTree = "<group>";
+		};
+		841105401E7DF258000381A0 /* our_scientific_work.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8411053F1E7DF258000381A0 /* ru */,
+				841105411E7DF25A000381A0 /* Base */,
+			);
+			name = our_scientific_work.png;
+			path = "Start Page Images";
+			sourceTree = "<group>";
+		};
+		841105441E7DF26F000381A0 /* energy_meters.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				841105431E7DF26F000381A0 /* Base */,
+				841105451E7DF270000381A0 /* ru */,
+			);
+			name = energy_meters.png;
+			path = "Start Page Images";
+			sourceTree = "<group>";
+		};
+		841105481E7DF274000381A0 /* documentation.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				841105471E7DF274000381A0 /* Base */,
+				841105491E7DF276000381A0 /* ru */,
+			);
+			name = documentation.png;
+			path = "Start Page Images";
+			sourceTree = "<group>";
+		};
+		8411054C1E7DF284000381A0 /* certificates.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8411054B1E7DF284000381A0 /* Base */,
+				8411054D1E7DF286000381A0 /* ru */,
+			);
+			name = certificates.png;
+			path = "Documentation Images";
+			sourceTree = "<group>";
+		};
+		841105501E7DF28A000381A0 /* presentations.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8411054F1E7DF28A000381A0 /* Base */,
+				841105511E7DF28B000381A0 /* ru */,
+			);
+			name = presentations.png;
+			path = "Documentation Images";
+			sourceTree = "<group>";
+		};
+		841105541E7DF28F000381A0 /* passport.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				841105531E7DF28F000381A0 /* Base */,
+				841105551E7DF290000381A0 /* ru */,
+			);
+			name = passport.png;
+			path = "Documentation Images";
+			sourceTree = "<group>";
+		};
+		841105581E7DF293000381A0 /* other.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				841105571E7DF293000381A0 /* Base */,
+				841105591E7DF296000381A0 /* ru */,
+			);
+			name = other.png;
+			path = "Documentation Images";
+			sourceTree = "<group>";
+		};
+		8411055C1E7DF29B000381A0 /* manual.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8411055B1E7DF29B000381A0 /* Base */,
+				8411055D1E7DF29C000381A0 /* ru */,
+			);
+			name = manual.png;
+			path = "Documentation Images";
+			sourceTree = "<group>";
+		};
+		841105621E7DF48E000381A0 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				841105611E7DF48E000381A0 /* Base */,
+				841105631E7DF48F000381A0 /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		84E262261DD115A3003E6412 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84E262271DD115A3003E6412 /* Base */,
+				841105361E7DF049000381A0 /* ru */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84E2622B1DD115A3003E6412 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84E2622C1DD115A3003E6412 /* Base */,
+				841105351E7DF049000381A0 /* ru */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84E2622F1DD115A3003E6412 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84E262301DD115A3003E6412 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84E262321DD115A3003E6412 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Energo Control/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ec.Energo-Control";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		84E262331DD115A3003E6412 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Energo Control/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ec.Energo-Control";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84E2621A1DD115A3003E6412 /* Build configuration list for PBXProject "Energo Control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E2622F1DD115A3003E6412 /* Debug */,
+				84E262301DD115A3003E6412 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84E262311DD115A3003E6412 /* Build configuration list for PBXNativeTarget "Energo Control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E262321DD115A3003E6412 /* Debug */,
+				84E262331DD115A3003E6412 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84E262171DD115A3003E6412 /* Project object */;
+}
